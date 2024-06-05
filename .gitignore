@@ -1,14 +1,12 @@
 # Blacklist everything from root of repo onwards.
 */*
 
-# Whitelist repo files in the root dir.
 !.gitattributes
 !.gitignore
 !Changelog.txt
 !LICENSE
 !README.md
 
-# Whitelist config & scripts folders
 !config/*
 !scripts/*
 !resources/*
