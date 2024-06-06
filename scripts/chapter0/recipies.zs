@@ -5,4 +5,6 @@ recipes.addShaped(<extendedcrafting:table_basic>, [[<extendedcrafting:material:1
 recipes.remove(<tconstruct:soil>);
 //Adds the recipe for flint and steel
 recipes.removeShapeless(<minecraft:flint_and_steel>, [<minecraft:iron_ingot>, <minecraft:flint>]);
-recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ingotSteel>,<tconstruct:shard>.withTag({Material: "flint"}).onlyWithTag({Material: "flint"})]);
+recipes.addShapeless(<minecraft:flint_and_steel>, [<psi:material:1>,<tconstruct:shard>.withTag({Material: "flint"}).onlyWithTag({Material: "flint"})]);
+//Remove the recipe for Manyullyn Block
+recipes.removeShaped(<tconstruct:metal:2>, [[<tconstruct:ingots:2>, <tconstruct:ingots:2>, <tconstruct:ingots:2>],[<tconstruct:ingots:2>, <tconstruct:ingots:2>, <tconstruct:ingots:2>], [<tconstruct:ingots:2>, <tconstruct:ingots:2>, <tconstruct:ingots:2>]]);

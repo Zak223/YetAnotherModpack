@@ -15,7 +15,7 @@
   "isDimensionSpawnsBlacklist": false,
   "isBiomeNameSpawnsBlacklist": false,
   "isBiomeTagSpawnsBlacklist": false,
-  "generateEverywhere": false,
+  "generateEverywhere": true,
   "integrity": 1,
   "decay": 0,
   "filling": "",
