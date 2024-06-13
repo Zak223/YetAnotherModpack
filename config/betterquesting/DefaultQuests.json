@@ -407,7 +407,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "minecraft:nether_star"
+            "id:8": "minecraft:book"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -500,11 +500,13 @@
       }
     },
     "8:10": {
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        7
+      ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Now with your better crafting table you can make more advanced machines!\n\nWe should really get started on generating power first..",
+          "desc:8": "Now with your better crafting table you can make more advanced recipes!\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -544,7 +546,10 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "minecraft:nether_star"
+            "id:8": "tconstruct:pick_head",
+            "tag:10": {
+              "Material:8": "stone"
+            }
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -1082,9 +1087,9 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 2,
             "OreDict:8": "",
-            "id:8": "minecraft:nether_star"
+            "id:8": "tconstruct:metal"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
